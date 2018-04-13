@@ -11,7 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="nurealam sabbir">
 
-    <!-- Mobile Specific Metas 
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <!-- Mobile Specific Metas
   ================================================== -->
     <meta content="width=device-width,initial-scale=1" name="viewport">
 
@@ -28,13 +30,13 @@
     <!--stylesheets
     ====================================================-->
     <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
-    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css"> 
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/simpletextrotator.css"> 
-    
+    <link rel="stylesheet" type="text/css" href="css/simpletextrotator.css">
+
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]--> 
+    <![endif]-->
     <script src="js/jquery.min.js"></script> <!-- JQUERY -->
 </head>
 <body>
@@ -43,8 +45,8 @@
 
     <div class="loading-screen"></div>
 
-    <div id="frontpage"> 
-        <div class="shadow-img"></div> 
+    <div id="frontpage">
+        <div class="shadow-img"></div>
         <img src="images/front-image.jpg" class="front-img img-responsive" alt ="Front-image"><!--IMAGE FOR FRONT SCREEN-->
         <h1>Li <span class="invert">Dada</span></h1><!--PROFILE NAME-->
         <h3 class="invert" style="margin-top: -10px; margin-bottom: 10px;">Web <span class="rotate">Developer, Designer, Artist</span></h3> <!--SUBTITLE IN PROFILE-->
@@ -59,7 +61,7 @@
                 <div id="namecard" class="namecard">
                     <div class="shadow-img"></div>
                     <h1 class="maintitle">Li <span class="invert">Dada</span></h1><!--PROFILE NAME-->
-                    <h3 class="invert sub-maintitle">Web 
+                    <h3 class="invert sub-maintitle">Web
                         <span class="rotate">Developer, Designer, Artist</span><!--SUBTITLE AFTET NAME-->
                     </h3>
                     <img id="profile-img" class="profile-img transparent" src="images/profile-thum.png" alt="profile-image"/><!--PROFILE IMAGE-->
@@ -88,7 +90,7 @@
 
                     <!--SOCIAL NAV MENU-->
                     <div class="social-menu-container">
-                        <ul class="social-menu no-padding">                     
+                        <ul class="social-menu no-padding">
                             <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="javascript:;"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="https://shop156573949.taobao.com/" target="_blank"><i class="fa fa-leaf"></i></a></li>
@@ -103,26 +105,26 @@
                     <!--HOME/PROFILE PAGE-->
                     <li id="home" class="selected">
                         <div class="title-container hidden">
-                            <div class="shadow-img"></div> 
-                            <h2 class="rotate-out">Welcome To <span class="invert">My Profile</span></h2><!--HOME TITLE-->                          
+                            <div class="shadow-img"></div>
+                            <h2 class="rotate-out">Welcome To <span class="invert">My Profile</span></h2><!--HOME TITLE-->
                         </div>
                         <div class="description hidden">
-                            <div class="watermark-home"></div> 
+                            <div class="watermark-home"></div>
 
                             <div class="fade-text transparent">
                                 <!--DESCRIPTION ON HOME-->
                                 <div class="strong-text">Hello, I am <span>Li Dada</span></div>
                                 <div class="focus-text"><span>Web Developer & </span><span>Web Designer</span></div>
-                                <p class="large-paragraph">I have ten years experience as a web/interface designer.I have a love of clean, elegant styling. I have lots of experience in the production of CSS and HTML for modern websites.</p>         
+                                <p class="large-paragraph">I have ten years experience as a web/interface designer.I have a love of clean, elegant styling. I have lots of experience in the production of CSS and HTML for modern websites.</p>
                                 <!--DESCRIPTION ON HOME ENDS-->
                             </div>
 
                             <!--ALL PERSONAL DETAILS-->
                             <h3 class="personal-info-title title">Personal Info</h3>
                             <ul class="personal-info">
-                                <li class="rotate-out rotated"><label>Name</label><span>Anderson smith</span></li>                     
+                                <li class="rotate-out rotated"><label>Name</label><span>Anderson smith</span></li>
                                 <li class="rotate-out rotated"><label>Address</label><span>Melbourne Victoria 3000 Australia</span></li>
-                                <li class="rotate-out rotated"><label>Email</label><span>nurealamsabbir@authlab.io</span></li>  
+                                <li class="rotate-out rotated"><label>Email</label><span>nurealamsabbir@authlab.io</span></li>
                                 <li class="rotate-out rotated"><label>Phone</label><span>+8801979791001</span></li>
                             </ul><!--/ul.personal-info-->
                         </div>
@@ -199,7 +201,7 @@
                                         </div>
                                     </div><!--SKILLS WITH CIRCLE DISPLAY ENDS-->
                                 </div><!--RESUME FIRST TAB/SKILL TAB DETAILS ENDS-->
-                                
+
                                 <!--RESUME SECOND TAB/EDUCATION TAB DETAILS-->
                                 <div id='tab-2'>
                                     <h3 class="title">EDUCATIONS</h3>
@@ -270,10 +272,10 @@
                     <li id="portfolio" class="hidden">
                         <div class="title-container">
                             <div class="shadow-img"></div>
-                            <h2 class="rotate-out rotated">Portfolio</h2> <!--PORTFOLIO TITLE-->                         
+                            <h2 class="rotate-out rotated">Portfolio</h2> <!--PORTFOLIO TITLE-->
                         </div>
 
-                        <!--PORTFOLIO CATEGORY LIST-->    
+                        <!--PORTFOLIO CATEGORY LIST-->
                         <div class="abs-child">
                             <ul class="button-group filters-button-group">
                                 <li class="button is-checked" data-filter="*">Show All</li>
@@ -282,90 +284,90 @@
                                 <li class="button" data-filter=".potrait">Potrait</li>
                             </ul><!--/.button-group filters-button-group-->
                         </div>
-                        
-                        <div class ="sec-porfolio description"> 
+
+                        <div class ="sec-porfolio description">
                             <div class="row">
                                 <!--PORTFOLIO ITEM CONTAINER-->
                                 <div class="folio-container">
                                     <ul class="folio-item"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-                                        <li class="view view-first photography">  
-                                            <img src="images/folio/logs.jpg" alt="logs" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
-                                            <div class="mask">  
-                                                 <h2>woodsman</h2> <!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                               
+                                        <li class="view view-first photography">
+                                            <img src="images/folio/logs.jpg" alt="logs" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+                                            <div class="mask">
+                                                 <h2>woodsman</h2> <!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
                                                 <!-- Button trigger modal -->
                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
-                                             </div>  
-                                        </li>  
+                                             </div>
+                                        </li>
                                         <li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-                                          <img src="images/folio/book.jpg" alt="book" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+                                          <img src="images/folio/book.jpg" alt="book" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
                                             <div class="mask"></div>
                                             <div class="content">
-                                                <h2>Hover Style #2</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                  
+                                                <h2>Hover Style #2</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal2">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
                                             </div>
                                         </li>
-                                        <li class="view view-tenth photography"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
-                                             <img src="images/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
-                                             <div class="mask">  
-                                                 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
+                                        <li class="view view-tenth photography"> <!--PORTFOLIO INDIVIDAUAL ITEM-->
+                                             <img src="images/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+                                             <div class="mask">
+                                                 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
                                                  <a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a>  <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
-                                             </div>  
-                                        </li>                         
+                                             </div>
+                                        </li>
                                         <li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-                                          <img src="images/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+                                          <img src="images/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
                                             <div class="mask"></div>
                                             <div class="content">
-                                                <h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+                                                <h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal3">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
                                             </div>
-                                        </li> 
-                                                            
-                                        <li class="view view-first potrait"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
-                                             <img src="images/folio/illustration.jpg" alt="illustration" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->   
-                                             <div class="mask">  
-                                                 <h2>New York</h2>                                   
-                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal4">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
-                                             </div>  
-                                        </li>                         
+                                        </li>
+
+                                        <li class="view view-first potrait"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+                                             <img src="images/folio/illustration.jpg" alt="illustration" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+                                             <div class="mask">
+                                                 <h2>New York</h2>
+                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal4">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+                                             </div>
+                                        </li>
                                         <li class="view view-second photography"><!--PORTFOLIO INDIVIDAUAL ITEM-->
-                                          <img src="images/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+                                          <img src="images/folio/guy.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
                                             <div class="mask"></div>
                                             <div class="content">
-                                                <h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+                                                <h2>Image Name</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal3">Read More</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
                                             </div>
-                                        </li> 
-                                        <li class="view view-tenth potrait"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
-                                            <img src="images/folio/logs.jpg" alt="logs" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
-                                            <div class="mask">  
-                                                 <h2>woodsman</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                            
-                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
-                                             </div>  
-                                        </li>   
-                                        
-                                        <li class="view view-tenth commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
-                                             <img src="images/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
-                                             <div class="mask">  
-                                                 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
-                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
-                                             </div>  
-                                        </li>             
-                                                                                                
-                                                  
+                                        </li>
+                                        <li class="view view-tenth potrait"> <!--PORTFOLIO INDIVIDAUAL ITEM-->
+                                            <img src="images/folio/logs.jpg" alt="logs" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+                                            <div class="mask">
+                                                 <h2>woodsman</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
+                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+                                             </div>
+                                        </li>
+
+                                        <li class="view view-tenth commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+                                             <img src="images/folio/beach.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->
+                                             <div class="mask">
+                                                 <h2>New York</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->
+                                                 <a role="button" class="info" data-toggle="modal" data-target="#myModal5">Read More</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+                                             </div>
+                                        </li>
+
+
                                     </ul>
                                 </div>
                                 <!--PORTFOLIO ITEM CONTAINER ENDS-->
-                            </div>                          
+                            </div>
                         </div>
                     </li><!--/#portfolio-->
 
                     <!--CONTACT PAGE-->
                     <li id="contact" class="hidden">
                         <div class="title-container" >
-                            <div class="shadow-img"></div>               
+                            <div class="shadow-img"></div>
                            <h2 class="rotate-out rotated">Contact</h2><!--CONTACT PAGE TITLE-->
                         </div>
-                        <div class="description">                           
+                        <div class="description">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="map-container">
@@ -393,10 +395,10 @@
                                         <form action="sendmail.php" class="form-horizontal" id="contact-form">
                                             <div class="form-group">
                                                 <input name="name" class="form-control required" placeholder="Name" data-placement="top" type="text">
-                                            </div>                                    
+                                            </div>
                                             <div class="form-group">
                                                 <input name="email" class="form-control email" placeholder="Email" type="text">
-                                            </div>                   
+                                            </div>
                                             <div class="form-group">
                                                 <textarea name="message" class="form-control" placeholder="Message" rows="3"></textarea>
                                             </div>
@@ -405,14 +407,14 @@
                                             </div>
 
                                         </form><!--/#contact-form-->
-                                    </div>                      
-                                    
-                                </div>                          
-                                
+                                    </div>
+
+                                </div>
+
                             </div>
                         </div>
                     </li><!--/#contact-->
-                </ul> 
+                </ul>
 
                 <div class="row mobile-nav-container">
                     <!--SOCIAL NAV FOR MOBILE-->
@@ -424,12 +426,12 @@
                         <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                     </ul><!--/.mobile-social-->
-                </div>               
+                </div>
             </div><!--/.page-segment -->
-            <!--  <h6 class="copyright-text">Copyright © 2015 Li Dada</h6> --> <!--if anyone wants copyright Texts--> 
+            <!--  <h6 class="copyright-text">Copyright © 2015 Li Dada</h6> --> <!--if anyone wants copyright Texts-->
         </div>
     </div><!--/.container -->
-   
+
     <!--PORTFOLIO IMAGE MODAL LIST-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -444,7 +446,7 @@
                 <div class="modal-footer">
                     <div class="mf-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus fuga sit explicabo blanditiis voluptate iste vero quia impedit? Iusto illo voluptas est praesentium veritatis magni, pariatur laboriosam voluptatem inventore.</p>
-                    </div>                      
+                    </div>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -463,7 +465,7 @@
                 <div class="modal-footer">
                     <div class="mf-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sapiente, odit, illo saepe voluptate eos enim eius autem cumque ab, soluta dolor tempore inventore eligendi maxime voluptas pariatur explicabo blanditiis?</p>
-                    </div>                      
+                    </div>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -482,7 +484,7 @@
                 <div class="modal-footer">
                     <div class="mf-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ratione quae, alias at. Reprehenderit, ut quis corporis laudantium, laborum sed omnis qui perspiciatis explicabo. Ipsum culpa aspernatur dolorem. Amet, quis.</p>
-                    </div>                      
+                    </div>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -501,7 +503,7 @@
                 <div class="modal-footer">
                     <div class="mf-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ab id unde veniam error et iste ut aspernatur accusantium porro molestiae voluptatibus rem, tempore inventore ad minus soluta praesentium magni?</p>
-                    </div>                      
+                    </div>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -520,7 +522,7 @@
                 <div class="modal-footer">
                     <div class="mf-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam amet placeat porro, maxime corrupti laboriosam, quod nulla perferendis esse ipsa atque deleniti. Magni molestias, nemo illum eos, exercitationem neque incidunt.</p>
-                    </div>                      
+                    </div>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -543,7 +545,7 @@
     <!--javascript files
     =============================================================-->
     <script type="text/javascript" src="js/jQueryTween-aio-min.js"></script> <!-- JQUERY Tween Plugin -->
-    <script type="text/javascript" src="js/jquery.tabslet.min.js"></script> <!-- JQUERY Tab plugin-->     
+    <script type="text/javascript" src="js/jquery.tabslet.min.js"></script> <!-- JQUERY Tab plugin-->
     <script type="text/javascript" src="js/progressbar.min.js"></script> <!-- JQUERY Progressbar Plugin-->
     <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script> <!-- JQUERY Text Rotator-->
     <script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- Bootstrap file-->
